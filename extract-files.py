@@ -22,7 +22,7 @@ from extract_utils.utils import (
 )
 
 namespace_imports = [
-    'device/xiaomi/merlinx',
+    'device/xiaomi/selene',
     'hardware/mediatek',
     'vendor/xiaomi/mt6768-common',
 ]
@@ -86,7 +86,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'merlinx',
+    'selene',
     'xiaomi',
     blob_fixups=blob_fixups,
     namespace_imports=namespace_imports,

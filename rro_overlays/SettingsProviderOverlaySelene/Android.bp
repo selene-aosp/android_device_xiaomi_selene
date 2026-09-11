@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsProviderOverlayMerlinx",
+    name: "SettingsProviderOverlaySelene",
     device_specific: true,
 }
