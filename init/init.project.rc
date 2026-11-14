@@ -1,7 +1,6 @@
 # MTK project .rc configure
 
 # K19A-T code for HQ-274009 by zhangqiutong at 2022.12.17 start
-import /vendor/odm/etc/init/${ro.boot.product.hardware.sku}/android.hardware.nfc@1.2-service.rc
 import /vendor/odm/etc/init/${ro.boot.product.hardware.sku}/android.hardware.secure_element@1.2-service-mediatek.rc
 # K19A-T code for HQ-274009 by zhangqiutong at 2022.12.17 end
 

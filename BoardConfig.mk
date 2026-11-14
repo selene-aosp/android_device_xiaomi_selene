@@ -97,8 +97,14 @@ TARGET_KERNEL_CONFIG += vendor/selene.config
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 
 # NFC
-ODM_MANIFEST_SKUS += eos
+ODM_MANIFEST_SKUS += \
+	eos \
+	eos_p \
+	eos_u
+
 ODM_MANIFEST_EOS_FILES := $(DEVICE_PATH)/configs/vintf/manifest_eos.xml
+ODM_MANIFEST_EOS_P_FILES := $(DEVICE_PATH)/configs/vintf/manifest_eos_p.xml
+ODM_MANIFEST_EOS_U_FILES := $(DEVICE_PATH)/configs/vintf/manifest_eos_u.xml
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
