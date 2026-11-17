@@ -1204,9 +1204,25 @@ vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
+# NFC
+vendor/bin/pnscr
+vendor/libnfc-nxp_RF.conf:vendor/etc/libnfc-nxp_RF.conf
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp-pnscr.conf
+vendor/etc/libnfc-nxp.conf
+vendor/etc/sn100u_nfcon.pnscr
+vendor/etc/sn100u_pnx_chr.pnscr
+vendor/etc/sn100u_pnx_cui.pnscr
+vendor/etc/sn100u_pnx_ese_3.pnscr
+vendor/etc/sn100u_pnx_ndi.pnscr
+vendor/etc/sn100u_pnx_pcv.pnscr
+vendor/etc/sn100u_pnx_sst.pnscr
+
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
-vendor/odm/etc/init/eos/android.hardware.secure_element@1.2-service-mediatek.rc:vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
+vendor/odm/etc/init/eos/android.hardware.secure_element@1.2-service-mediatek.rc:odm/etc/init/eos/android.hardware.secure_element@1.2-service-mediatek.rc
+vendor/odm/etc/init/eos_p/android.hardware.secure_element@1.2-service-mediatek.rc:odm/etc/init/eos_p/android.hardware.secure_element@1.2-service-mediatek.rc
+vendor/odm/etc/init/eos_u/android.hardware.secure_element@1.2-service-mediatek.rc:odm/etc/init/eos_u/android.hardware.secure_element@1.2-service-mediatek.rc
 
 # Sensors
 vendor/firmware/remoteproc_scp
